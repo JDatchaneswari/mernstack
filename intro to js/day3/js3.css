@@ -1,0 +1,26 @@
+.container{
+    width:400px;
+    margin: 200px auto;
+}
+.btn{
+    border:none;
+    font-size:16px;
+    padding:16px 30px;
+    cursor:pointer;
+    border-radius:12px ;
+    background-color: black;
+    color:white;
+}
+input{
+    width:100%;
+    margin-bottom:12px;
+    padding:14px;
+    font-size:16px;
+    border-radius:12px;
+    box-sizing: border-box;
+    border:1px solid greenyellow
+}
+input:focus{
+    border:1px solid blue;
+    outline:none;
+}

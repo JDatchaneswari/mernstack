@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="chat.css" />
+    <link rel="shortcut icon" type="image/x-icon" href="https://chat.openai.com//favicon.ico"/>
+    <title>New Chat</title>
+</head>
+<body>
+    <div class="container">
+        <!--Left side-->
+        <div class="left">
+            <div class="new_chat">
+                <i class="bi bi-plus-lg"></i>
+                <p>New Chat</p>
+            </div>
+            <!--chat history-->
+            <div class="chat_history">
+                <div class="history">
+                    <div class="buttons">
+                        <i class="bi bi-chat-right"></i>
+        
+                    </div>
+                    <p class="title">ChatGPT Clone</p>
+                </div>
+                <div class="history">
+                    <div class="buttons">
+                        <i class="bi bi-chat-right"></i>
+        
+                    </div>
+                    <p class="title">Explain Html</p>
+                </div>
+                <div class="history">
+                    <div class="buttons">
+                        <i class="bi bi-chat-right"></i>
+                    </div>
+                    <p class="title">Explain CSS</p>
+                </div>
+            </div>
+            <!--settings-->
+            <div class="settings">
+                <div class="upgrade">
+                    <button>Upgrade Plus</button>
+                    <span class="upgrade-new">New</span>
+                </div>
+                <div class="profile">
+                    <div class="user">
+                        <img class="card-img" src="https://source.unsplash.com/25x20/?man" alt="Kabir"/>
+                        <h3>Kabir</h3>
+                    </div>
+                    <span>...</span>
+                </div>
+            </div>
+        </div>
+        <!--Right side-->
+        <div class="right">
+            <h1>ChatGPT</h1>
+            <div class="items">
+                <div class="item">
+                    <p><i class="bi bi-lightbulb"></i>
+                    Examples</p>
+                    <div class="item_query">
+                        <button class="query example_query">
+                        explain atom in simple terms
+                        </button>
+                        <button class="query example_query">
+                        explain molecules in simple terms
+                        </button>
+                        <button class="query example_query">
+                        explain http request in simple terms
+                        </button>
+                    </div>
+                </div>
+                <div class="item">
+                    <i class="bi bi-lightning"></i>
+                    <p>Capabilities</p>
+                    <div class="item_query">
+                        <button class="query">
+                        Successive prompts and replies, known as prompt engineering.
+                        </button>
+                        <button class="query">
+                        get instant answers, find creative inspiration, and learn something new
+                        </button>
+                        <button class="query">
+                        explain networking in simple terms
+                        </button>
+                    </div>
+                </div>
+                <div class="item">
+                    <i class="bi bi-exclamation-triangle"></i>
+                    <p>Limitations</p>
+                    <div class="item_query">
+                        <button class="query example_query">
+                       Remember what user said earlier in the conversation.
+                        </button>
+                        <button class="query example_query">
+                       allow users to provide follow up correction
+                        </button>
+                        <button class="query example_query">
+                        trained to decline inappropriate requests.
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+            <!--input bar-->
+            <div class="input">
+                <div class="flex">
+                    <input type="text" class="chat-input" placeholder="Send Message Here..."value=""/>
+                    <button class="bi bi-send"></button>
+                </div>
+               
+                <p>ChatGPT can make mistakes. Verify important information.
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

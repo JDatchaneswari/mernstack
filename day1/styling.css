@@ -1,0 +1,30 @@
+/* class name alwaya start with dot.
+id are used in js to target element
+classes are best to use in css. */
+/*text-decoration:underline,overline,line-through*/
+.title{
+    text-align:center;
+    font-size:40px;
+    word-spacing:10px;
+    color:green;
+    text-decoration:underline red;
+}
+#boot{
+    text-align:center;
+    font-size:40px;
+    word-spacing:10px;
+    color:green;
+    text-decoration:underline red;
+}
+h2{
+    font-size:30px;
+    text-align: center;
+    color:royalblue;
+  @import url('https://fonts.googleapis.com/css2?family=Gelasio:ital,wght@1,500&display=swap');
+  font-family: 'Gelasio', serif; 
+}
+p{
+    text-align:center;
+    font-family: 'Gelasio', serif;
+    font-size:18px;
+}

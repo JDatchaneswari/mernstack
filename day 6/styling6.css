@@ -1,0 +1,106 @@
+.body{
+    margin:0;
+}
+.red{
+    width:250px;
+    height:250px;
+    background-color:red;
+    top:0;
+    left:0;
+    position:absolute;
+    z-index:200;
+}
+.blue{
+    width:300px;
+    height:300px;
+    background-color:rgba(0, 0, 255, 0.465);
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:100;
+}
+.nav{
+    position:sticky;
+    top:0;
+    background-color: rgba(0, 0,54);
+    width:100%;
+    height:80px;
+    z-index:1;
+}
+.card{
+    width:300px;
+    margin:10px auto;
+    border:1px solid lightgray;
+    border-radius:14px;
+    padding:5px;
+}
+.card-img{
+    width:100%;
+    border-radius:14px;
+}
+.card-header{
+     position:relative;
+}
+.header{
+    padding:2px 12px;
+    margin:10px;
+    color:gold;
+    background-color: rgba(93, 0, 255, 0.628);
+    position:absolute;
+    bottom:0;
+    font-size:14px;
+    border-radius: 20px;
+}
+.text{
+    text-align:center;
+    font-size:46px;
+    font-weight:800;
+    color:black;
+    text-decoration: underline yellow;
+}
+/*.text::first-letter{
+    color:blueviolet;
+    font-size:56px;
+}
+.text::first-line{
+    color:red;
+}*/
+.text::selection{
+    background-color:rgba(22, 22, 195, 0.94);
+    color:white;
+    text-decoration:underline yellow;
+}
+.text:hover{
+    text-decoration: underline green;
+    font-size:65px;
+}
+.demo{
+    width:400px;
+    margin:60px auto;
+}
+.input{
+    width:100%;
+   box-sizing: border-box;
+   border-radius:12px;
+   padding:16px;
+   font-size:16px;
+   border:1px solid lightgray;
+}
+/*.input:focus{
+    color:blue;
+    background-color: bisque;
+}*/
+.input:focus{
+    outline:none;
+    border: 3px solid orangered;
+    background-color: orchid;
+}
+a:hover{
+    color:blueviolet;
+}
+a:visited{
+    color:orangered;
+}
+a:active{
+    color:greenyellow;
+}
